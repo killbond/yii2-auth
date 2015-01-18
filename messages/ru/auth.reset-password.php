@@ -1,6 +1,6 @@
 <?php
 return [
-	'Request password reset' => 'Запрос сброса пароля',
+	'Request password reset' => 'Сброс пароля',
 	'Please fill out your email. A link to reset password will be sent there.' => 'Пожалуйста, укажите email. На указанный вами email будет отправлена ссылка для сброса пароля.',
 	'There is no user with such email.' => 'Здесь нет пользователя с таким email.',
 	'Password reset token cannot be blank.' => 'Токен сброса пароля не может быть пустым.',
