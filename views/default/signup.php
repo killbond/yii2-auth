@@ -22,13 +22,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
                 <?= $form->field($model, 'password')->passwordInput() ?>
 
-                <?= Html::submitButton('Sign up', ['class' => 'btn btn-success btn-block']) ?>
+                <?= Html::submitButton(\Yii::t('auth.rbac', 'Send'), ['class' => 'btn btn-success btn-block']) ?>
 
                 <?php ActiveForm::end(); ?>
             </div>
         </div>
         <p class="text-center">
-            <?= Html::a('Already registered? Sign in!', ['/auth/default/login']) ?>
+            <?= Html::a(\Yii::t('auth.rbac', 'Already registered? Sign in!'), ['/auth/default/login']) ?>
         </p>
     </div>
 </div>
