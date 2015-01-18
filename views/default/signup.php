@@ -2,7 +2,7 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
-$this->title = 'Sign up';
+$this->title = Yii::t('auth.user', 'Sign up');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="row">

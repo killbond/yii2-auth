@@ -18,6 +18,7 @@ return [
 	'View Profile' => 'Просмотр профиля',
 	'Update Profile' => 'Обновить профиль',
     'Authorization' => 'Авторизация',
+    'Sign up' => 'Регистрация',
 	'Login' => 'Войти',
 	'Logout' => 'Выйти',
 	'Username or Email' => 'Имя пользователя или пароль',
