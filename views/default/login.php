@@ -8,7 +8,7 @@ use yii\captcha\Captcha;
  * @var yii\widgets\ActiveForm $form
  * @var auth\models\LoginForm $model
  */
-$this->title = \Yii::t('auth.user', 'Login');
+$this->title = \Yii::t('auth.user', 'Authorization');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-login center-block col-lg-3 col-md-4 col-sm-6" style="float:none;">
