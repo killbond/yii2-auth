@@ -91,7 +91,7 @@ class User extends ActiveRecord implements IdentityInterface
 	public static function findByUsername($username)
 	{
 		return static::find()
-					 ->andWhere(['and', ['or', ['username' => $username], ['email' => $username]], ['status' => static::STATUS_ACTIVE]])
+					 ->andWhere(['and', ['email' => $username], ['status' => static::STATUS_ACTIVE]])
 					 ->one();
 	}
 
